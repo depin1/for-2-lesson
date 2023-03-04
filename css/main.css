@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(168, 103, 103, 0.211);
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    height: 100vh;
+    transition: .5s;
+}
+
+.boxtop {
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(21, 34, 73, 0.723);
+    padding: 25px;
+    color: #ffff;
+    border-radius: 10px;
+    transition: .5s;
+    position: relative;
+}
+
+.boxbutton:hover {
+    background-color: rgba(9, 9, 56, 0.334);
+}
+
+.boxtop:hover {
+    background-color: rgba(11, 11, 47, 0.334);
+}
+
+.boxbutton {
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(21, 34, 73, 0.723);
+    padding: 25px;
+    color: #ffff;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.boxtop_chilled {
+    background-color: azure;
+    height: 0;
+    width: 800px;
+    overflow: hidden;
+    color: black;
+    transition: .5s;
+}
+
+.text {
+    padding: 10px;
+}
+
+.boxtop_chilled.extra {
+    height: 100px;
+}
+
+.rotate {
+    transition: .5s;
+    transform: rotate(90deg);
+}
+
+.rotate.extra {
+    transform: rotate(180deg);
+}
